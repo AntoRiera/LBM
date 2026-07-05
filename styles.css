@@ -217,7 +217,7 @@ a { color: inherit; text-decoration: none; }
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 14px;
+  gap: 16px;
 }
 .gallery-row > img {
   width: clamp(170px, 16vw, 320px);
@@ -230,7 +230,7 @@ a { color: inherit; text-decoration: none; }
 }
 .gallery-feature img {
   width: 100%;
-  aspect-ratio: 1 / 1.02;
+  aspect-ratio: 1 / 1.2;
   object-fit: cover;
   box-shadow: var(--shadow);
 }
